@@ -10,19 +10,25 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var stopRecordingButton: UILabel!
     @IBOutlet weak var recordButton: UIButton!
     @IBOutlet weak var recordingStatus: UILabel!
-   
+    @IBOutlet weak var stopRecordingButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        stopRecordingButton.isEnabled = false
     }
 
     @IBAction func startRecording(_ sender: Any) {
+        recordingStatus.text = "Recording in progress"
+        recordButton.isEnabled = false
+        stopRecordingButton.isEnabled = true
     }
     
     @IBAction func stopRecording(_ sender: Any) {
+        recordingStatus.text = "Tap to record"
+        recordButton.isEnabled = true
+        stopRecordingButton.isEnabled = false
     }
 }
 
