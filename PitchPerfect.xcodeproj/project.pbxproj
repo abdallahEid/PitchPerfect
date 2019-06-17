@@ -13,6 +13,7 @@
 		BB0711C622B6B35F00388238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0711C522B6B35F00388238 /* Assets.xcassets */; };
 		BB0711C922B6B35F00388238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0711C722B6B35F00388238 /* LaunchScreen.storyboard */; };
 		BB0711D122B70FDB00388238 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0711D022B70FDB00388238 /* PlaySoundsViewController.swift */; };
+		BB37E83A22B7C81B009AE55C /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB37E83922B7C81B009AE55C /* PlaySoundsViewController+Audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BB0711C822B6B35F00388238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB0711CA22B6B35F00388238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB0711D022B70FDB00388238 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		BB37E83922B7C81B009AE55C /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				BB0711BE22B6B35D00388238 /* AppDelegate.swift */,
 				BB0711C022B6B35D00388238 /* RecordViewController.swift */,
 				BB0711D022B70FDB00388238 /* PlaySoundsViewController.swift */,
+				BB37E83922B7C81B009AE55C /* PlaySoundsViewController+Audio.swift */,
 				BB0711C222B6B35D00388238 /* Main.storyboard */,
 				BB0711C522B6B35F00388238 /* Assets.xcassets */,
 				BB0711C722B6B35F00388238 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB0711C122B6B35D00388238 /* RecordViewController.swift in Sources */,
+				BB37E83A22B7C81B009AE55C /* PlaySoundsViewController+Audio.swift in Sources */,
 				BB0711D122B70FDB00388238 /* PlaySoundsViewController.swift in Sources */,
 				BB0711BF22B6B35D00388238 /* AppDelegate.swift in Sources */,
 			);
